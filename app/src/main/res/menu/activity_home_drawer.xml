@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="home" />
+        <item
+            android:id="@+id/doctor"
+            android:icon="@drawable/doctor"
+            android:title="Doctor" />
+        <item
+            android:id="@+id/institute"
+            android:icon="@drawable/hospital"
+            android:title="Health Institute" />
+        <item
+            android:id="@+id/pharmacy"
+            android:icon="@drawable/pharmacy"
+            android:title="Pharmacy" />
+        <item
+            android:id="@+id/ambulance"
+            android:icon="@drawable/ambulance"
+            android:title="Ambulance" />
+    </group>
+
+    <item android:title="Accessories">
+        <menu>
+            <item
+                android:id="@+id/admin"
+                android:icon="@drawable/admin"
+                android:title="Admin" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/help"
+                android:title="Help and Support" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="Developer Info" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

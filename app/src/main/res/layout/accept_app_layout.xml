@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/square"
+    android:orientation="vertical">
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/acc_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/serial_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Serial No."
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/acc_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Date (dd-mm-yy)"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/acc_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Time (HH:mm:ss)"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/acc_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/list_border"
+        android:text="Accept Request" />
+
+</LinearLayout>

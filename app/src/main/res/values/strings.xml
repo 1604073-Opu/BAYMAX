@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Medi Care</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="category">
+        <item>DOCTOR</item>
+        <item>INSTITUTE</item>
+        <item>PHARMACY</item>
+        <item>AMBULANCE</item>
+    </string-array>
+
+    <string-array name="searchtype">
+        <item>Name</item>
+        <item>Place</item>
+        <item>Doctor Specialty</item>
+        <item>Doctor Fee</item>
+    </string-array>
+    <string name="title_activity_help_and_support">HelpAndSupport</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
